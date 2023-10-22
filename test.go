@@ -1,6 +1,6 @@
 package uwhQuad
 
-func FindQuadA(x, y int) []string {
+func FindQuadA(x, y int) []string{
 	quada := []rune(nil)
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
