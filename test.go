@@ -66,7 +66,7 @@ func FindQuadB(x, y int) string {
 	return string(quadb)
 }
 
-func FindQuadC(x, y int) {
+func FindQuadC(x, y int) string {
 	quadc := []rune(nil)
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
@@ -105,7 +105,7 @@ func FindQuadC(x, y int) {
 	return string(quadc)
 }
 
-func FindQuadD(x, y int) {
+func FindQuadD(x, y int) string {
 	quadd := []rune(nil)
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
@@ -144,7 +144,7 @@ func FindQuadD(x, y int) {
 	return string(quadd)
 }
 
-func FindQuadE(x, y int) {
+func FindQuadE(x, y int) string {
 	quade := []rune(nil)
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
