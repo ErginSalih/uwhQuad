@@ -1,6 +1,6 @@
 package uwhQuad
 
-func FindQuadE(x, y int) string {
+func FindQuadE(x, y int) []string {
 	quade := []rune(nil)
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
@@ -36,5 +36,5 @@ func FindQuadE(x, y int) string {
 			quade = append(quade, '\n')
 		}
 	}
-	return string(quade)
+	return []string{string(quadE), "e"}
 }
