@@ -36,5 +36,5 @@ func FindQuadE(x, y int) []string {
 			quade = append(quade, '\n')
 		}
 	}
-	return []string{string(quadE), "e"}
+	return []string{string(quade), "E"}
 }
