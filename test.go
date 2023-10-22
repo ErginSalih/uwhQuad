@@ -24,5 +24,5 @@ func FindQuadA(x, y int) string {
 			quada = append(quada, '\n')
 		}
 	}
-	return string(quada)
+	return []string{string(quada),"A"}
 }
